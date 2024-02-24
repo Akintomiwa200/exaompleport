@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    opacity: 0.94;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 10vh;
+}
+
+#logo{
+    margin-left: 18px;
+    font-family: cursive;
+    color: #ccc;
+    margin-left: 40px;
+}
+#homeb{
+    margin-right: 70px;
+}
+#homeb a{
+   text-decoration:none; 
+   font-size: 16px;
+   margin: 20px;
+   color: white;
+   cursor: pointer;
+   
+}
+
+#top{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#namea{
+  text-align: center; 
+  font-size: 38px;
+
+}
+#namea span{
+  text-align: center; 
+  font-size: 180px;
+  color: red;
+}
+#top img{
+    height: 200px;
+    width: 200px;
+    border-radius: 70%;
+    border: 1px solid black;
+}
+#nameaa{
+    text-align: center;
+    font-size: 27px;
+    padding-top: 20px;
+    font-weight: 200px;
+}
+
+#skills{
+    height: 80vh;
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    width: 20%;
+    height: 30vh;
+    background-color: black;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 22px;
+}
+#tit{
+    font-size: 40px;
+    margin: 40px;
+}
+#aboutMe{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#aboutMe h4{
+    margin-top: 40px;
+    width: 70vw;
+    text-align: justify;
+    font-size: 17px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 0px 70px 0px 70px;
+    justify-content: space-between;
+    height: 70px;
+    background-color: rgb(19, 17, 17);
+    color: white;
+}
+#foot{
+    font-size: 20px;
+    font-weight: 100;
+}
+#portf{
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#grid1{
+    margin: 40px 20px;
+    width: 20vw;
+    height: 20vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#grid-sample{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
